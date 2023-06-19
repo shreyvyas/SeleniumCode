@@ -11,13 +11,20 @@ public class App
         
     }
     
+    
     public void getGreeting() throws InterruptedException, MalformedURLException{
     	
-    	SearchAmazon sa = new SearchAmazon();
-    	sa.createDriver();
-    	//sa.testCase01();
-    	//sa.endTest();
-    	System.out.println(sa.testCase01());
+    	//Amazon
+//    	SearchAmazon sa = new SearchAmazon();
+//    	sa.createDriver();
+//    	//sa.testCase01();
+//    	//sa.endTest();
+//    	System.out.println(sa.testCase01());
+    	
+    	//number of hyperlinks
+    	Hyperlinks hl = new Hyperlinks();
+    	hl.createDriver();
+    	System.out.println(hl.testCase02());
     	
     }
 }
