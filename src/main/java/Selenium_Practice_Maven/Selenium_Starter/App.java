@@ -27,14 +27,15 @@ public class App
 //    	System.out.println(hl.testCase02());
     	
     	//Linkedin Post
-//    	LinkedinPost lp = new LinkedinPost();
-//    	lp.createDriver();
-//    	lp.testCase03();
+    	LinkedinPost lp = new LinkedinPost();
+    	lp.createDriver();
+    	lp.testCase06();
+    	//lp.endTest();
     	
     	//Recommended Movies
-    	Movies movies = new Movies();
-    	movies.createDriver();
-    	movies.testCase05();
+//    	Movies movies = new Movies();
+//    	movies.createDriver();
+//    	movies.testCase05();
     	
     }
 }
