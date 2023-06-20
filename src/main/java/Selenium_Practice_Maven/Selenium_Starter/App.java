@@ -22,9 +22,19 @@ public class App
 //    	System.out.println(sa.testCase01());
     	
     	//number of hyperlinks
-    	Hyperlinks hl = new Hyperlinks();
-    	hl.createDriver();
-    	System.out.println(hl.testCase02());
+//    	Hyperlinks hl = new Hyperlinks();
+//    	hl.createDriver();
+//    	System.out.println(hl.testCase02());
+    	
+    	//Linkedin Post
+//    	LinkedinPost lp = new LinkedinPost();
+//    	lp.createDriver();
+//    	lp.testCase03();
+    	
+    	//Recommended Movies
+    	Movies movies = new Movies();
+    	movies.createDriver();
+    	movies.testCase05();
     	
     }
 }
