@@ -47,13 +47,15 @@ public class Movies {
 		
 		driver.get("https://in.bookmyshow.com/explore/home/chennai");
 		
-		List<WebElement> premiere = driver.findElements(By.xpath("//div[@class='sc-lnhrs7-4 hgSytF']/div/a/div/div[3]/h3"));
+		List<WebElement> premiere = driver.findElements(By.xpath("//div[@class='sc-lnhrs7-4 lkiZOG']/div/a"));
 		
-		for(WebElement element : premiere) {
-			String listElement = element.getText();
-			System.out.println(listElement);
-		}
-		System.out.println(premiere.get(1).getText());
+//		for(WebElement element : premiere) {
+//			String listElement = element.getText();
+//			
+//			System.out.println(listElement);
+//		}
+		System.out.println(premiere.size());
+		//System.out.println(premiere.get(1).getText());
 	}
 
 }
