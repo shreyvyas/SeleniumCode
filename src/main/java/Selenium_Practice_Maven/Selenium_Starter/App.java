@@ -49,5 +49,11 @@ public class App
 //    	ir.testCase10();
     	//ir.endTest();
     	
+    	//Window Handling
+    	WindowHandle wh = new WindowHandle();
+    	wh.openURL();
+    	wh.testCase11();
+    	//wh.endTest();
+    	
     }
 }
