@@ -38,9 +38,16 @@ public class App
 //    	movies.testCase05();
     	
     	//Nested Frames
-    	NestedFrames frames = new NestedFrames();
-    	frames.testCase07();
-    	//frames.endTest();
+//    	NestedFrames frames = new NestedFrames();
+//    	frames.testCase07();
+//    	//frames.endTest();
+    	
+    	//IMDB Ratings
+//    	IMDBRatings ir = new IMDBRatings();
+//    	ir.testCase08();
+//    	ir.testCase09();
+//    	ir.testCase10();
+    	//ir.endTest();
     	
     }
 }
